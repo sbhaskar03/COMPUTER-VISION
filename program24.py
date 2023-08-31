@@ -7,7 +7,7 @@ def high_boost_sharpening(image_path, k=1.5):
     high_pass = original_image - blurred_image
     sharpened_image = original_image + k * high_pass
     return original_image, sharpened_image
-image_path = r"C:\Users\mainu\Pictures\7304.jpg"
+image_path = r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg"
 original_image, sharpened_image = high_boost_sharpening(image_path, k=1.5)
 plt.figure(figsize=(10, 5))
 plt.subplot(1, 3, 1)

@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread(r"C:\Users\mainu\Pictures\ani5.jpg")
+img = cv2.imread(r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg")
 x, y = 100, 100
 width, height = 200, 150
 roi = img[y:y+height, x:x+width]

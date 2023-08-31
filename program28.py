@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img = cv2.imread(r"C:\Users\mainu\Pictures\7304.jpg",cv2.IMREAD_GRAYSCALE)
+img = cv2.imread(r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg",cv2.IMREAD_GRAYSCALE)
 dx = cv2.Sobel(img, cv2.CV_64F, 1, 0)
 dy = cv2.Sobel(img, cv2.CV_64F, 0, 1)
 edges = cv2.magnitude(dx, dy)

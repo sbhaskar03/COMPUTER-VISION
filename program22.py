@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img = cv2.imread(r"C:\Users\mainu\Pictures\7304.jpg")
+img = cv2.imread(r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg")
 img = cv2.resize(img,(255, 255))
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 laplacian_kernel = np.array([[0, -1, 0], [-1, 5, -1], [0, -1, 0]])

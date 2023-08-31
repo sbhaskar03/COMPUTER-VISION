@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-cap = cv2.VideoCapture(r"C:\Users\mainu\Videos\3_-_Why_This_Kolaveri_Di_Making_Video___Dhanush%2C_Shruti___Anirudh(1080p).mp4")
+cap = cv2.VideoCapture(r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg")
 if (cap.isOpened()== False):
     print("Error opening video file")
 while(cap.isOpened()):

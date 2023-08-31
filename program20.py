@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img = cv2.imread(r"C:\Users\mainu\Pictures\7304.jpg")
+img = cv2.imread(r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 kernel = np.array([[0,1,0], [1,-8,1], [0,1,0]])
 sharpened = cv2.filter2D(gray, -1, kernel)

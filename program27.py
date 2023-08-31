@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
-image = cv2.imread(r"C:\Users\mainu\Pictures\7304.jpg")
-img2 = cv2.imread(r"C:\Users\mainu\Pictures\7304.jpg")
+image = cv2.imread(r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg")
+img2 = cv2.imread(r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg")
 print(image.shape) # Print image shape
 cv2.imshow("original", image)
 imageCopy = image.copy()

@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-p = r"C:\Users\mainu\Videos\SnapTik.biz-Doctor - Chellamma Lyric _ Sivakarthikeyan _ Anirudh Ravichander _ Nelson Dilipkumar _ Jonita Gandhi-(1080p).mp4"
+p = r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg"
 c = cv2.VideoCapture(p)
 
 p1 = np.float32([[56, 65], [368, 52], [28, 387], [389, 390]])

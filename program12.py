@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img = cv2.imread(r"C:\Users\mainu\Pictures\7304.jpg")
+img = cv2.imread(r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg")
 rows,cols,ch = img.shape
 pts1 = np.float32([[56,65],[368,52],[28,387],[389,390]])
 pts2 = np.float32([[100,50],[300,0],[0,300],[300,300]])

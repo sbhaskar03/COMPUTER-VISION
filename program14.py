@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-im_src = cv2.imread(r"C:\Users\mainu\Pictures\7304.jpg")
+im_src = cv2.imread(r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg")
 pts_src = np.array([[141, 131], [480, 159], [493, 630],[64, 601]])
 im_dst = cv2.imread(r"C:\Users\mainu\Pictures\7304.jpg")
 pts_dst = np.array([[318, 256],[534, 372],[316, 670],[73, 473]])

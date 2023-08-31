@@ -9,7 +9,7 @@ def sharpen_image_with_gradient(image_path, alpha=1.5):
     gradient_magnitude = cv2.normalize(gradient_magnitude, None, 0, 255, cv2.NORM_MINMAX, cv2.CV_8U)
     sharpened_image = cv2.addWeighted(original_image, 1 + alpha, gradient_magnitude, -alpha, 0)
     return original_image, sharpened_image
-image_path = r"C:\Users\mainu\Pictures\7304.jpg"
+image_path = r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg"
 original_image, sharpened_image = sharpen_image_with_gradient(image_path, alpha=1.5)
 plt.figure(figsize=(10, 5))
 plt.subplot(1, 2, 1)

@@ -1,6 +1,6 @@
 import cv2
-img = cv2.imread(r"C:\Users\mainu\Pictures\7304.jpg")
-wm = cv2.imread(r"C:\Users\mainu\Pictures\7304.jpg")
+img = cv2.imread(r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg")
+wm = cv2.imread(r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg")
 h_wm, w_wm = wm.shape[:2]
 h_img, w_img = img.shape[:2]
 center_x = int(w_img/2)

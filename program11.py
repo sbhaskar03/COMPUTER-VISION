@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-image_path = r"C:\Users\mainu\Pictures\7304.jpg"
+image_path = r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg"
 image = cv2.imread(image_path)
 rows, cols, _ = image.shape
 transformation_matrix = np.float32([[1, 0, 50], [0, 1, 30]])

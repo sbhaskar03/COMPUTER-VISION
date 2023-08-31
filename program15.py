@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
-img1 = cv2.imread(r"C:\Users\mainu\Pictures\7304.jpg")
-img2 = cv2.imread(r"C:\Users\mainu\Pictures\7304.jpg")
+img1 = cv2.imread(r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg")
+img2 = cv2.imread(r"C:\Users\bhask\Downloads\wallpaperflare.com_wallpaper.jpg")
 pts1 = np.array([[50, 50], [200, 50], [50, 200], [200, 200]])
 pts2 = np.array([[100, 100], [300, 100], [100, 300], [300, 300]])
 H, _ = cv2.findHomography(pts1, pts2)
